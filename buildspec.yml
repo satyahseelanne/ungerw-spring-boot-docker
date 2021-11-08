@@ -4,7 +4,7 @@ phases:
   install:
     commands:
      # variables
-      - REPOSITORY_URI=airport-ecr:latest 234190327268.dkr.ecr.us-east-1.amazonaws.com/airport-ecr
+      - REPOSITORY_URI=234190327268.dkr.ecr.us-east-1.amazonaws.com/airport-ecr
       - ARTIFACT=spring-boot
       - ARTIFACT_TYPE=.jar 
       - TAG_NAME=$REPOSITORY_URI:$ARTIFACT
